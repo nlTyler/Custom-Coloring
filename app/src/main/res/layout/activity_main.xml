@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:foregroundGravity="right"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+
+        <edu.up.com.example.customcoloring.FruitView
+            android:id="@+id/fruitview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ADD8E6" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Red" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="272dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="clip_horizontal"
+            android:max="255" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Green" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="272dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="clip_horizontal"
+            android:max="255" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Blue" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="272dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="clip_horizontal"
+            android:max="255" />
+
+    </LinearLayout>
+
+</LinearLayout>
